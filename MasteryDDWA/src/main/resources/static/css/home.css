@@ -1,0 +1,18 @@
+body {
+    padding: 5% 10%;
+}
+
+article.blog-listings {
+    max-height: 10em;
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.card-header > h5 > button {
+    color: black;
+}
+
+h2 > a {
+    color: #6f4e37;
+}
