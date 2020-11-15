@@ -6,6 +6,7 @@ Date revised:
 package masteryddwa.dao;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -95,6 +96,13 @@ public class CommentDaoDBTest {
         userOne.setRoles(userRoles);
         userOne = userDao.addUser(userOne);
 
+        Hashtag hashtag = new Hashtag();
+        hashtag.setTag("birds");
+        hashtag = hashtagDao.addHashtag(hashtag);
+        
+        hashtags = new ArrayList<>();
+        hashtags.add(hashtag);
+        
         postOne = new Post();
         postOne.setBody("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
         postOne.setEnabled(true);
