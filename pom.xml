@@ -10,10 +10,9 @@
         <relativePath/>
     </parent>
     <groupId>rtdonin</groupId>
-    <artifactId>MasteryDDWA</artifactId>
+    <artifactId>blogging-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>MasteryDDWA</name>
-    <description>Capstone Project</description>
+    <name>blogging-project</name>
 
     <properties>
         <java.version>11</java.version>
