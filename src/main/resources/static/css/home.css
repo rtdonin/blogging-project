@@ -3,10 +3,7 @@ body {
 }
 
 article.blog-listings {
-    max-height: 10em;
-    max-width: 500px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    max-width: 50erm;
 }
 
 div.card-header > h5 > button {

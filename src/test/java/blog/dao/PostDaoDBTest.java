@@ -5,11 +5,6 @@ Date revised:
  */
 package blog.dao;
 
-import blog.dao.HashtagDao;
-import blog.dao.UserDao;
-import blog.dao.PostDao;
-import blog.dao.CommentDao;
-import blog.dao.RoleDao;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashSet;

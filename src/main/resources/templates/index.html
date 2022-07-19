@@ -48,9 +48,11 @@
     </nav>
 
     <main th:each="blog : ${blogs}">
-        <article class = "blog-listings">
-            <h2><a th:text="${blog.title}" th:href="@{/post(id=${blog.id})}"></a></h2>
-            <p th:utext="${blog.body}" class="blog"></p>
+        <article class="blog-listings">
+            <div class="card p-2 m-2">
+                <h2 class="card-title"><a th:text="${blog.title}" th:href="@{/post(id=${blog.id})}"></a></h2>
+                <p th:utext="${blog.body}" class="blog"></p>
+            </div>
         </article>
     </main>
     <!-- End main body -->

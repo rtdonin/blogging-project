@@ -5,10 +5,6 @@ Date revised:
  */
 package blog.dao;
 
-import blog.dao.HashtagDao;
-import blog.dao.UserDao;
-import blog.dao.PostDao;
-import blog.dao.RoleDao;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
